@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "total_applications": 62,
+    "total_hired": 1,
+    "total_rejected": 35,
+    "total_active": 26,
+    "overall_conversion_rate": 1.6129032258064515
+  },
+  "hires": {
+    "by_job": {
+      "Mid N\u00b3R Full Stack Dev (Node.js / React -> NestJS / Next.js)": 1
+    },
+    "by_quarter": {
+      "2025Q2": 1
+    },
+    "by_country": {
+      "Unknown": 1
+    },
+    "by_role": {
+      "Not specified": 1
+    }
+  },
+  "rejections": {
+    "total": 35,
+    "by_reason": {
+      "No respet\u00f3 tiempo l\u00edmite": 5,
+      "Code Technical Interview: Nivel t\u00e9cnico insuficiente para la posici\u00f3n": 5,
+      "Le falta experiencia relevante": 4,
+      "Incompatibilidad cultural": 4,
+      "English Interview: Nivel de ingl\u00e9s insuficiente para el rol requerido": 3,
+      "[DEPRECATED] No encaja": 2,
+      "Motivos personales": 2,
+      "Otros motivos": 2,
+      "Le faltan las cualificaciones deseables": 2,
+      "[DEPRECATED] Otros motivos": 2,
+      "Opening Paused": 1,
+      "Resultado psicot\u00e9cnico no alineado con el rol": 1,
+      "Moved to another job": 1,
+      "No expresa claramente inter\u00e9s": 1
+    },
+    "by_stage": {
+      "People Interview": 9,
+      "Code Technical Interview": 7,
+      "Psicot\u00e9cnicos": 6,
+      "Inbox": 4,
+      "Screening": 3,
+      "Code challenge": 2,
+      "English Interview": 2,
+      "Conversational Technical Interview": 1,
+      "Job References": 1
+    }
+  },
+  "conversion_by_job": {
+    "Jr AI Fullstack Dev": 0.0,
+    "Mid N\u00b3R Full Stack Dev (Node.js / React -> NestJS / Next.js)": 1.7543859649122806
+  },
+  "time_to_hire": {
+    "average": 43.0,
+    "median": 43.0,
+    "min": 43.0,
+    "max": 43.0,
+    "by_job": {
+      "Mid N\u00b3R Full Stack Dev (Node.js / React -> NestJS / Next.js)": 43.0
+    }
+  },
+  "stage_distribution": {
+    "Inbox": 27,
+    "People Interview": 9,
+    "Code Technical Interview": 7,
+    "Screening": 6,
+    "Psicot\u00e9cnicos": 6,
+    "Code challenge": 2,
+    "English Interview": 2,
+    "Hired": 1,
+    "Conversational Technical Interview": 1,
+    "Job References": 1
+  },
+  "source_analysis": {
+    "Unknown": {
+      "applications": 62,
+      "hires": 0,
+      "conversion_rate": 0.0
+    }
+  }
+}

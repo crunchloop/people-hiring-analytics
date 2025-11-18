@@ -1,0 +1,161 @@
+{
+  "summary": {
+    "total_applications": 930,
+    "total_hired": 3,
+    "total_rejected": 545,
+    "total_active": 382,
+    "overall_conversion_rate": 0.3225806451612903,
+    "analysis_period": {
+      "start": "2025-05-20",
+      "end": "2025-11-13"
+    }
+  },
+  "hires": {
+    "total": 3,
+    "by_job": {
+      "Mid N³R Full Stack Dev (Node.js / React -> NestJS / Next.js)": 1,
+      "Recruiting and People Support": 1,
+      "Sr .NET Full Stack Dev": 1
+    },
+    "by_quarter": {
+      "2025Q2": 2,
+      "2025Q3": 1
+    },
+    "by_location": {
+      "Unknown": 3
+    },
+    "by_role": {
+      "Not specified": 3
+    }
+  },
+  "rejections": {
+    "total": 545,
+    "top_reasons": {
+      "No responde primer contacto - No inicia proceso de selección": 127,
+      "No respetó tiempo límite": 112,
+      "[DEPRECATED] Otros motivos": 81,
+      "[DEPRECATED] No encaja": 40,
+      "Incompatibilidad cultural": 28,
+      "Le faltan las cualificaciones deseables": 27,
+      "Code Technical Interview: Nivel técnico insuficiente para la posición": 23,
+      "Le falta experiencia relevante": 17,
+      "Ha aceptado otro empleo": 14,
+      "Resultado psicotécnico no alineado con el rol": 12,
+      "No le interesaba de primeras": 10,
+      "Moved to another job": 7,
+      "Se ha seleccionado a alguien más cualificado": 7,
+      "No responde": 6,
+      "Conversational Technical Interview: Falta profundidad en conocimientos técnicos específicos": 5
+    },
+    "by_stage": {
+      "Inbox": 351,
+      "People Interview": 51,
+      "Code Technical Interview": 40,
+      "Screening": 30,
+      "Psicotécnicos": 25,
+      "Conversational Technical Interview": 12,
+      "Interview": 8,
+      "English Interview": 7,
+      "Psicotecnicos": 6,
+      "Job References": 5,
+      "Code Challenge": 5,
+      "Code challenge": 2,
+      "Sreening": 2,
+      "Offer": 1
+    }
+  },
+  "conversion_by_job": {
+    "Recruiting and People Support": {
+      "total_applications": 6,
+      "hires": 1,
+      "conversion_rate": 16.666666666666664
+    },
+    "Mid N³R Full Stack Dev (Node.js / React -> NestJS / Next.js)": {
+      "total_applications": 57,
+      "hires": 1,
+      "conversion_rate": 1.7543859649122806
+    },
+    "Sr .NET Full Stack Dev": {
+      "total_applications": 208,
+      "hires": 1,
+      "conversion_rate": 0.4807692307692308
+    },
+    "Jr AI Fullstack Dev": {
+      "total_applications": 5,
+      "hires": 0,
+      "conversion_rate": 0.0
+    },
+    "Mid .NET / Typescript Full Stack Developer": {
+      "total_applications": 97,
+      "hires": 0,
+      "conversion_rate": 0.0
+    },
+    "Mid React/Python Full Stack Dev": {
+      "total_applications": 38,
+      "hires": 0,
+      "conversion_rate": 0.0
+    },
+    "Mid Ruby on Rails Full Stack Dev": {
+      "total_applications": 107,
+      "hires": 0,
+      "conversion_rate": 0.0
+    },
+    "Sr N³R Full Stack Dev (Node.js / React -> NestJS / Next.js)": {
+      "total_applications": 113,
+      "hires": 0,
+      "conversion_rate": 0.0
+    },
+    "Sr Ruby on Rails Full Stack Dev": {
+      "total_applications": 273,
+      "hires": 0,
+      "conversion_rate": 0.0
+    },
+    "SSR Ruby on Rails Full Stack Dev": {
+      "total_applications": 26,
+      "hires": 0,
+      "conversion_rate": 0.0
+    }
+  },
+  "conversion_by_location": {
+    "Unknown": {
+      "total_applications": 930,
+      "hires": 3,
+      "conversion_rate": 0.3225806451612903
+    }
+  },
+  "time_to_hire": {
+    "average_days": 39.0,
+    "median_days": 39.0,
+    "min_days": 35.0,
+    "max_days": 43.0,
+    "by_job": {
+      "Mid N³R Full Stack Dev (Node.js / React -> NestJS / Next.js)": 43.0,
+      "Recruiting and People Support": 35.0,
+      "Sr .NET Full Stack Dev": 39.0
+    }
+  },
+  "stage_distribution": {
+    "Inbox": 698,
+    "People Interview": 62,
+    "Code Technical Interview": 50,
+    "Screening": 38,
+    "Psicotécnicos": 26,
+    "Conversational Technical Interview": 13,
+    "Interview": 8,
+    "English Interview": 7,
+    "Job References": 6,
+    "Code Challenge": 6,
+    "Psicotecnicos": 6,
+    "Sreening": 4,
+    "Hired": 3,
+    "Code challenge": 2,
+    "Offer": 1
+  },
+  "source_analysis": {
+    "Unknown": {
+      "applications": 930,
+      "hires": 0,
+      "conversion_rate": 0.0
+    }
+  }
+}
