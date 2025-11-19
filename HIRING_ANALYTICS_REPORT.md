@@ -18,10 +18,10 @@
 
 ### Critical Insights
 ⚠️ **Major Concerns:**
-1. **Extremely Low Conversion Rate (0.32%)** - Only 3 hires from 930 applications
-2. **High Early-Stage Dropout** - 64.4% of rejections happen at Inbox stage
-3. **No Capture of Referring Sources** - 100% marked as "Unknown"
-4. **No Location Data** - All candidates marked as "Unknown" location
+1. **Extremely Low Conversion Rate (0.32%)** - Only 3 hires from 930 applications over 6 months
+2. **High Early-Stage Dropout** - 64.4% of rejections happen at Inbox stage, indicating initial engagement or screening issues
+3. **No Capture of Referring Sources** - 100% marked as "Unknown", preventing channel optimization
+4. **No Location Data** - All candidates marked as "Unknown" location, limiting geographic analysis
 
 ---
 
@@ -284,8 +284,10 @@ The term "boosts" typically refers to:
 
 ### 🔴 Critical Issues to Address
 
-1. **Conversion Rate Emergency (0.32%)**
-   - Benchmark: Industry standard is 2-5% for tech roles
+1. **Conversion Rate Emergency (0.32% / 310 applications per hire)**
+   - Only 3 hires from 930 applications over 6 months
+   - **Industry Benchmark:** [CareerPlug's 2025 Recruiting Metrics Report](https://www.careerplug.com/recruiting-metrics-and-kpis/) (analyzing 60,000+ companies) shows average of **180 applicants per hire** across all industries
+   - **Your Performance:** 72% worse than benchmark (310 vs 180 applications per hire)
    - **Action:** Immediate review of screening criteria and process bottlenecks
 
 2. **Data Quality Crisis**
@@ -368,6 +370,31 @@ The term "boosts" typically refers to:
 | SSR Ruby on Rails Full Stack Dev | 26 | 0 | 24 | 2 | 0.0% |
 | Recruiting and People Support | 6 | 1 | 0 | 5 | 16.7% |
 | Jr AI Fullstack Dev | 5 | 0 | 2 | 3 | 0.0% |
+
+---
+
+## Industry Benchmarks & References
+
+### Conversion Rate Benchmarks (2025)
+
+**Source:** [CareerPlug 2025 Recruiting Metrics Report](https://www.careerplug.com/recruiting-metrics-and-kpis/)
+- **Sample Size:** 60,000+ companies, 10+ million job applications
+- **Applicant-to-Hire Ratio:** 180 applicants per hire (industry average)
+- **Applicant-to-Interview:** 3% conversion rate
+- **Interview-to-Hire:** 27% conversion rate
+
+**Your Performance vs. Benchmark:**
+- **Applications per Hire:** 310 vs 180 benchmark (72% worse)
+- **Conversion Rate:** 0.32% vs 0.56% benchmark (43% worse)
+
+### Additional Tech Hiring Insights
+
+**Time-to-Hire Benchmarks:**
+- Average tech role: 28 days (application to offer)
+- Senior technical: 68 days average
+- AI/ML roles: 89 days average
+
+*Source: [Second Talent Tech Industry Statistics](https://www.secondtalent.com/resources/tech-industry-hiring-statistics/)*
 
 ---
 
