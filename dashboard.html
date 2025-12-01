@@ -252,6 +252,24 @@
             </div>
         </div>
 
+        <!-- Conversion Funnel Alert -->
+        <div class="alert info">
+            <div class="alert-title">📊 Updated Conversion Funnel Analysis</div>
+            <div class="alert-content">
+                <strong>Cohort Data (Jan 1 - Nov 30, 2025):</strong> 1,269 applications → 7 hires (0.55% conversion)
+                <br><br>
+                <strong>Stage-by-Stage Conversion:</strong>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Inbox → Screening: <strong>31.6%</strong> (401 advanced, 434 rejected)</li>
+                    <li>Screening → Interview: <strong>85.3%</strong> (342 advanced, 52 rejected)</li>
+                    <li>Interview → Offer: <strong>2.9%</strong> (10 advanced, 308 rejected - <span style="color: #ef4444;">90.1% rejection rate</span>)</li>
+                    <li>Offer → Hired: <strong>70.0%</strong> (7 hired, 1 rejected)</li>
+                </ul>
+                <br>
+                <strong>Major Bottleneck:</strong> Interview stage has 90.1% rejection rate - critical issue requiring immediate attention.
+            </div>
+        </div>
+
         <!-- Two Column Charts -->
         <div class="two-col">
             <div class="chart-container">
@@ -259,8 +277,8 @@
                 <canvas id="funnelChart"></canvas>
             </div>
             <div class="chart-container">
-                <h3 class="chart-title">Hires by Quarter</h3>
-                <canvas id="quarterChart"></canvas>
+                <h3 class="chart-title">Stage Conversion Funnel (Cohort 2025)</h3>
+                <canvas id="conversionFunnelChart"></canvas>
             </div>
         </div>
 
@@ -365,7 +383,7 @@
             { stage: 'Job References', total: 6, hired: 0, rejected: 5, active: 1 }
         ];
 
-        // Funnel Chart
+        // Funnel Chart (Original Data)
         new Chart(document.getElementById('funnelChart'), {
             type: 'doughnut',
             data: {
@@ -380,6 +398,43 @@
                 maintainAspectRatio: true,
                 plugins: {
                     legend: { position: 'bottom' }
+                }
+            }
+        });
+
+        // New Conversion Funnel Chart (2025 Cohort Data)
+        new Chart(document.getElementById('conversionFunnelChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Inbox\n(1,269)', 'Screening\n(401)', 'Interview\n(342)', 'Offer\n(10)', 'Hired\n(7)'],
+                datasets: [{
+                    label: 'Candidates',
+                    data: [1269, 401, 342, 10, 7],
+                    backgroundColor: ['#667eea', '#8b5cf6', '#ef4444', '#f59e0b', '#10b981']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Number of Candidates'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            afterLabel: function(context) {
+                                const conversions = ['100%', '31.6%', '27.0%', '0.8%', '0.6%'];
+                                return 'From Inbox: ' + conversions[context.dataIndex];
+                            }
+                        }
+                    }
                 }
             }
         });

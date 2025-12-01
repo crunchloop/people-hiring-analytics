@@ -145,7 +145,31 @@
 
 ## 4. End-to-End Conversion Rate (Funnel Analysis)
 
-### Overall Funnel
+### Updated Cohort Analysis (Jan 1 - Nov 30, 2025)
+
+**Source:** conversions-20251130-for-cohort-20250101-20251130.csv
+
+```
+1,269 Applications (100%)
+  ↓
+401 Advanced to Screening (31.6% conversion)
+434 Rejected at Inbox (34.2%)
+  ↓
+342 Advanced to Interview (85.3% conversion from screening)
+52 Rejected at Screening (13.0%)
+  ↓
+10 Advanced to Offer (2.9% conversion from interview) ⚠️ CRITICAL BOTTLENECK
+308 Rejected at Interview (90.1% rejection rate)
+  ↓
+7 Hired (70.0% conversion from offer)
+1 Rejected at Offer (10.0%)
+```
+
+### Overall Conversion Rate: 0.55%
+
+**Key Insight:** The Interview stage is the critical bottleneck with a **90.1% rejection rate**.
+
+### Original Data (May 20 - Nov 13, 2025)
 ```
 930 Applications (100%)
   ├── 698 in Inbox stage (75.1%)
@@ -160,7 +184,7 @@ Final Outcomes:
   └── 382 Active (41.1%)
 ```
 
-### Conversion Rate: 0.32%
+### Original Conversion Rate: 0.32%
 
 ### Stage-by-Stage Breakdown
 | Stage | Total Candidates | Hired | Rejected | Active | Rejection Rate |
@@ -284,11 +308,12 @@ The term "boosts" typically refers to:
 
 ### 🔴 Critical Issues to Address
 
-1. **Conversion Rate Emergency (0.32% / 310 applications per hire)**
-   - Only 3 hires from 930 applications over 6 months
+1. **Conversion Rate Emergency (0.32-0.55% / 181-310 applications per hire)**
+   - **Original Dataset:** 3 hires from 930 applications (0.32%, 310 apps/hire)
+   - **2025 Cohort:** 7 hires from 1,269 applications (0.55%, 181 apps/hire)
    - **Industry Benchmark:** [CareerPlug's 2025 Recruiting Metrics Report](https://www.careerplug.com/recruiting-metrics-and-kpis/) (analyzing 60,000+ companies) shows average of **180 applicants per hire** across all industries
-   - **Your Performance:** 72% worse than benchmark (310 vs 180 applications per hire)
-   - **Action:** Immediate review of screening criteria and process bottlenecks
+   - **Your Performance:** Cohort data matches benchmark (181 vs 180), but still shows critical bottleneck at Interview stage
+   - **Action:** Immediate review of Interview process - 90.1% rejection rate is the main issue
 
 2. **Data Quality Crisis**
    - **Location:** 100% Unknown
@@ -311,9 +336,18 @@ The term "boosts" typically refers to:
 
 ### 🟡 Process Improvements
 
-6. **Technical Interview Failure Rate (50%)**
-   - Half of code interview candidates fail
-   - **Action:** Better technical pre-screening or adjust expectations
+6. **Interview Stage Bottleneck (90.1% rejection rate) - HIGHEST PRIORITY**
+   - **2025 Cohort Data:** 342 candidates reached interviews, only 10 made it to offer (2.9% conversion)
+   - **Root Cause Analysis Needed:**
+     - Are interview standards too high or unclear?
+     - Is technical bar misaligned with candidate pool?
+     - Are interviewers properly calibrated?
+     - Is the interview process identifying the right signals?
+   - **Action:**
+     - Conduct interview process audit
+     - Review rejected candidate profiles for patterns
+     - Calibrate interviewers
+     - Consider adjusting evaluation criteria or improving pre-interview screening
 
 7. **Cultural Fit Issues**
    - 5.1% overall, 23.5% at People Interview stage
